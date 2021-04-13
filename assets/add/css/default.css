@@ -1,0 +1,7 @@
+.table > thead > tr > th.warning {
+	background-color: #FC9;
+}
+
+.table > thead > tr > th.danger {
+	background-color: #FCC;
+}

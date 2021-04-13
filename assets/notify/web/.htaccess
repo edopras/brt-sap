@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost.*$ [NC] 
+RewriteRule \.(jpg|php|pdf|jpeg|gif)$ - [F]
+</IfModule>
